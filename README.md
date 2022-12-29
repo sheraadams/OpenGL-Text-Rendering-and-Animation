@@ -20,9 +20,17 @@ enter:
   public:
   #pragma warning(disable: 4996)
 
-6. if using stb_image type above stb include: 
-#define STB_IMAGE_IMPLEMENTATION 
-stb errors check for duplicate stb.cpp. If stb errors still, move #define STB_IMAGE_IMPLEMENTATION  below all includes.
+6. if using stb_image, add the follwing define below all includes: 
+#define STB_IMAGE_IMPLEMENTATION
+additional helpful macros:
+#define STB_IMAGE_IMPLEMENTATION
+#define STBI_ASSERT(x)
+#define STBI_MALLOC
+#define STBI_REALLOC 
+#define STBI_FREE
+#define STBI_NO_FAILURE_STRINGS
+more info: see https://github.com/nothings/stb/blob/master/stb_image.h
+if stb errors check for duplicate stb.cpp. 
 
 7. using freetype, be sure to add freetype.lib, but also go to C++ language properties and add most recent c++ version to use the 2020 libraries. 
 
