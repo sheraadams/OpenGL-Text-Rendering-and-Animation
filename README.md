@@ -2,7 +2,7 @@
 
 Instructions:
 
-1. clone. Settings are MS Visual Studio x64.
+1. clone. Settings are MS Visual Studio x64. 
 
 2. Modify solution properties, all solutions debug > VCC++.
 add includes, add libraries
@@ -11,15 +11,14 @@ add includes, add libraries
 go to linker > input in properties add 
 glfw3.lib, opengl32.lib, assimp.lib, freetype.lib
 
-4. go to project add existing items if missing items from below:
-glad.c, stb_image.cpp, .pdbs
+4. go to project add all existing items if missing items from below:
+glad.c, stb_image.cpp, .pdbs, source, etc without duplicating source or adding solutions or other msvs files already detected. 
 
 5. if filestystem.h warnings: 
 after class FileSystem {
 enter:
   public:
   #pragma warning(disable: 4996)
-
 
 6. if using stb_image type above stb include: 
 #define STB_IMAGE_IMPLEMENTATION 
