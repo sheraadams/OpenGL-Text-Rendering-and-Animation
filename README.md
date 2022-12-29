@@ -1,4 +1,5 @@
 # OpenGL-Text-Scene
+![2 (4)](https://user-images.githubusercontent.com/110789514/209887682-eebc1c47-1d9c-4ed8-b21e-01d5a1e30858.png)
 
 Instructions:
 
@@ -34,4 +35,4 @@ if stb errors check for duplicate stb.cpp.
 
 7. using freetype, be sure to add freetype.lib, but also go to C++ language properties and add most recent c++ version to use the 2020 libraries. 
 
-![2 (4)](https://user-images.githubusercontent.com/110789514/209887682-eebc1c47-1d9c-4ed8-b21e-01d5a1e30858.png)
+
