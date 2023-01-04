@@ -21,7 +21,7 @@ enter:
   public:
   #pragma warning(disable: 4996)
 
-6. if using stb_image, add the follwing define below all includes: 
+6. if using stb_image, add the following define below all includes: 
 #define STB_IMAGE_IMPLEMENTATION
 additional helpful macros:
 #define STB_IMAGE_IMPLEMENTATION
