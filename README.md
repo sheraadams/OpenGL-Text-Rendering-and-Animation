@@ -1,7 +1,13 @@
-# OpenGL-Text-Scene
-![2 (4)](https://user-images.githubusercontent.com/110789514/209887682-eebc1c47-1d9c-4ed8-b21e-01d5a1e30858.png)
+# Documentation
 
-Instructions:
+This program is a visualization/ simulation program designed to allow an interactive 3D environment. 
+
+<p align="center">
+  <img width="" height="" src="https://user-images.githubusercontent.com/110789514/209887682-eebc1c47-1d9c-4ed8-b21e-01d5a1e30858.png">
+</p>
+
+
+## Instructions
 
 1. clone. Settings are MS Visual Studio x64. 
 
@@ -35,4 +41,10 @@ if stb errors check for duplicate stb.cpp.
 
 7. using freetype, be sure to add freetype.lib, but also go to C++ language properties and add most recent c++ version to use the 2020 libraries. 
 
+## Attribution
 
+Joey Devries and LearnOpenGL as much of this repository is inspired by this site. 
+
+## References
+
+Learn OpenGL, extensive tutorial resource for learning Modern OpenGL. (n.d.-c). https://learnopengl.com/
