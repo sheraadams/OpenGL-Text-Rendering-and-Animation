@@ -41,9 +41,11 @@ if stb errors check for duplicate stb.cpp.
 
 7. using freetype, be sure to add freetype.lib, but also go to C++ language properties and add most recent c++ version to use the 2020 libraries. 
 
-## Attribution
+## License
 
-Joey Devries and LearnOpenGL as much of this repository is inspired by this site. 
+Credit to LearnOpenGL for shaders, camera, glfw functions and text rendering functions. 
+
+https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
 
 ## References
 
