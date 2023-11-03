@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This program is animation program designed to allow an interactive 3D environment. The text is rendered onto a 2D plane in the environment to add to the experience and deliver the message in a visually creative and interesting way. 
+This program is an animation program designed to allow an interactive 3D environment. The text is rendered onto a 2D plane in the environment to add to the experience and deliver the message in a visually creative and interesting way. 
 
 
 <div style="text-align: center;">
@@ -19,7 +19,7 @@ This program is animation program designed to allow an interactive 3D environmen
 
 2. Modify solution properties, (all solutions) edit debug > VCC++ > add includes add libraries.
 
-3. Go to linker link and add additional libraries of config, dlls, bin, resources.
+3. Go to linker and add additional libraries of config, dlls, bin, resources.
 go to properties > linker > input and add glfw3.lib, opengl32.lib, assimp.lib, and freetype.lib.
 
 4. Go to project add all existing items to the project.
