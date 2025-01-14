@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This program is an animation program designed to allow an interactive 3D environment. The text is rendered onto a 2D plane in the environment to add to the experience and deliver the message in a visually creative and interesting way. 
+This program is an animation program designed to allow an interactive 3D environment for educational purposes. The text is rendered onto a 2D plane in the environment to add to the experience and deliver the message in a visually creative and interesting way. 
 
 
 <div style="text-align: center;">
@@ -45,6 +45,29 @@ https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
 
 Learn OpenGL, extensive tutorial resource for learning Modern OpenGL. (n.d.-c). https://learnopengl.com/
 
-<div style="text-align: center;">
-  <p><strong>Proudly crafted with ❤️ by <a href="https://github.com/sheraadams" target="_blank">Shera Adams</a>.</strong></p>
-</div>
+
+## XCode Usage
+
+Open a terminal in the project directory and run the code to remove the old build folder and generate a new one with the Xcode project file.
+
+```bash
+mkdir build
+cd build
+cmake -G Xcode ..
+
+#Usage: when updating the build folder, remove it first then regenerate the folder as above
+rm -rf build 
+```
+Set the working directory in Xcode using Product > Scheme > Edit Scheme > Run Debug > Options > Working Directory > (Check Set Custom) > Project directory/build.
+
+Build and run the project.
+
+## License:
+
+The code is based on various tutorial code from LearnOpenGL.com.
+
+Tutorial code is © Joey DeVries and licensed under the CC BY 4.0 License.
+
+Modifications and additional contributions are © Shera Adams and licensed under the Apache 2.0 License.
+
+Proudly crafted with ❤️ by Shera Adams.
